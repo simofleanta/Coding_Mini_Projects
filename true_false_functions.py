@@ -9,7 +9,7 @@ print(f(10))
 """ def if the statement is true or false"""
 def statements(a,b):
     if a+b != 16:
-        return False
+        return a+b
     else:
         return None
 print(statements(9,8))
