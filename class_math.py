@@ -32,6 +32,18 @@ def math(a,b):
         total = a-b*2
     return total   
 print(math(44,13))
+#-----------------------------------------
+"""change function name"""
+
+def displayStudent(name, age):
+    print(name, age)
+
+studentName=displayStudent
+
+print(studentName("Emma", 26))
+
+
+
 
 
 
