@@ -9,4 +9,7 @@ p=x(-5)
 
 print(p.f(-5))
 
+class y(x):
+    pass
+
 
