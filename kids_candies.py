@@ -18,5 +18,3 @@ sweets_for_kids([5,8,6,4])
 sweets_for_kids ([1,6])
 
 
-#https://vdocuments.site/700-de-exercitii-si-probleme-clasa-2.html
-#https://vdocuments.site/search?q=gmat+kaplan+work+book+2016

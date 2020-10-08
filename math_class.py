@@ -2,6 +2,10 @@
 if the product is greater than 1000 reurn their sum
 Do the exercise using inerited class """
 
+#transpose basic math problem into a simple code
+#instead of getting dizy with arguments a,b,c,d use inherit class to override arguments a,b where by 
+# attributes from a,b are inherited in the next class, the child class
+
 
 class x:
     def __init__(self, a,b):

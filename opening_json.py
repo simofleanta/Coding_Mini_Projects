@@ -2,7 +2,7 @@
 """Access info in the nested json below, the data is covid data from Code for Romania 2020""" 
 #import json
 #open file
-#learn get a property from a nested object
+
 import json
 
 with open('datelazi.json', 'r') as file:
