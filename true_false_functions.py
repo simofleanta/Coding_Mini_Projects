@@ -32,5 +32,4 @@ def statements(a,b):
 print(statements(9,8))
 #-------------------
 
-#print
-#print
+
