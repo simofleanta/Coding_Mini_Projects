@@ -4,27 +4,26 @@ name = 'django'
 # 'd'
 #reverse django
 
-print(name[:-1])
-print(name[::-1])
 
-#reverse using function that returns reversed object
-def rev(string):
+def name(string):
+    """function to return the reverse of the string'django'"""
     string='django'
-    return reversed(string)
+    return string[::-1]
+print(name('django'))
 
-print(rev('django'))
+def name(string):
+    string='django'
+    return [string[0:4],string[0:2:4], string[3:6], string[2:5]]
 
-print(name[0])
-print(name[0:4])
-print(name[0:2:4])
+print(name('django'))
+
 
 
 def name(case1):
     """ function to return middle three chars from a str for scenatio 1"""
-    char_midle=int(len(case1)/2)
-    return case1[3:6]
-    
+    return case1[3:6]    
 print(name('django'))
+
 
 def name(case2):
     """ function to return middle three chars from a str for scenatio 1"""
