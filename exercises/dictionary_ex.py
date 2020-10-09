@@ -22,9 +22,10 @@ values = [10, 20, 30]
 
 d=dict(zip(keys,values))
 print(d)
-
+#---------------------------------------------
 """Access the value of key ‘history’"""
 
+#nested dict
 
 sampleDict = { 
    "class":{ 
@@ -40,4 +41,8 @@ sampleDict = {
 
 s=sampleDict['class']['student']['marks']['history']
 print(s)
+
+#-------------------------------------------------------------
+
+
 
