@@ -15,3 +15,17 @@ def showEmployee(name, salary=9000):
     return f"Ben earns {salary}"
 
 print(showEmployee('Ben'))
+
+
+"""Assign a different name to function and call it through the new name"""
+
+def displayStudent(name, age):
+    print(name, age)
+
+showStudent = displayStudent
+showStudent("Emma", 26)
+
+
+
+
+
