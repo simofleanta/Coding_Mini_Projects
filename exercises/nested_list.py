@@ -20,6 +20,17 @@ def join(lst):
 
 print(join(lst))
 
+# create a list from a string
+#var1
+text = 'comprehension'
+n=list(text)
+print(n)
+
+#var2
+n=text.split()
+print(n)
+print(type(n))
+
 
 
 
