@@ -33,6 +33,16 @@ print(type(n))
 
 
 
+#Given a Python list you should be able to display Python list in the following order
+
+aLsit = ([100, 200, 300, 400, 500])
+
+def slice(list):
+    return list[::-1]
+print(slice([100, 200, 300, 400, 500]))
+
+
+
 
 
 
