@@ -2,9 +2,11 @@ import turtle
 
 board=turtle.Screen()
 t=turtle.Turtle()
-t.color("Green")
+t.color("green")
 t.width()
-t.speed(2)
+t.speed(4)
+t.shape('turtle')
+t.shapesize(0.5)
 
 for i in range(4):
     t.forward(300)
