@@ -1,3 +1,5 @@
+#df the function
+
 def add(x,y):
     """this f adds"""
     return x+y
@@ -10,6 +12,20 @@ def multiply(x,y):
 def divide(x,y):
     """this f divides"""
     return x/y
+
+
+#take imput from user
+while True:
+    print("Please select the opp.")
+    print("1.Add")
+    print("2.Substract")
+    print("3.Multiply")
+    print("4.Divide")
+    print("4.Exit")
+    
+    choice=input("Enter choice(1/2/3/4/5):")
+
+
 
 
 
