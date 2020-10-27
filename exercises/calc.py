@@ -13,8 +13,6 @@ def divide(x,y):
     """this f divides"""
     return x/y
 
-
-#take imput from user
 while True:
 
     print("Please select the opp.")
