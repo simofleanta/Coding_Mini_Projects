@@ -30,6 +30,25 @@ if choice=='1':
     num1=int(input("Enter first number: "))
     num2=int(input("Enter the second number: "))
     print(num1, "+" ,num2,"=", add(num1,num2))
+    
+elif choice=='2':
+    num1=int(input("Enter first number: "))
+    num2=int(input("Enter the second number: "))
+    print(num1, "-" ,num2,"=", subtract(num1,num2))
+
+elif choice=='3':
+    num1=int(input("Enter first number: "))
+    num2=int(input("Enter the second number: "))
+    print(num1, "*" ,num2,"=", multiply(num1,num2))
+
+elif choice=='4':
+    num1=int(input("Enter first number: "))
+    num2=int(input("Enter the second number: "))
+    print(num1, "/" ,num2,"=", divide(num1,num2))
+
+
+
+
 
 
 
