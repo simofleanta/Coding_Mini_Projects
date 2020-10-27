@@ -21,8 +21,7 @@ while True:
     print("2.Substract")
     print("3.Multiply")
     print("4.Divide")
-    print("4.Exit")
-    
+    print("5.Exit")    
     choice=input("Enter choice(1/2/3/4/5):")
 
 #if statements
@@ -30,21 +29,22 @@ if choice=='1':
     num1=int(input("Enter first number: "))
     num2=int(input("Enter the second number: "))
     print(num1, "+" ,num2,"=", add(num1,num2))
-    
 elif choice=='2':
     num1=int(input("Enter first number: "))
     num2=int(input("Enter the second number: "))
     print(num1, "-" ,num2,"=", subtract(num1,num2))
-
 elif choice=='3':
     num1=int(input("Enter first number: "))
     num2=int(input("Enter the second number: "))
     print(num1, "*" ,num2,"=", multiply(num1,num2))
-
 elif choice=='4':
     num1=int(input("Enter first number: "))
     num2=int(input("Enter the second number: "))
     print(num1, "/" ,num2,"=", divide(num1,num2))
+    
+else:
+    choice=='5'    
+
 
 
 
