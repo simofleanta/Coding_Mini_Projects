@@ -56,10 +56,11 @@ class Temperature:
 
 class Student:
     def __init__(self, name, roll):
-        pass  # YOUR CODE GOES HERE, REMOVE PASS
+        self.name='Adrian'
+        self.roll='II'
 
     def display(self):
-        pass  # YOUR CODE GOES HERE, REMOVE PASS
+        
 
     def set_age(self, age):
         pass  # YOUR CODE GOES HERE, REMOVE PASS
