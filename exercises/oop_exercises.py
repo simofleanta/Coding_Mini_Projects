@@ -19,13 +19,14 @@
 
 class Circle:
     def __init__(self, radius):
-        pass  # YOUR CODE GOES HERE, REMOVE PASS
+        self.radius=radius
 
     def get_area(self):
         pass  # YOUR CODE GOES HERE, REMOVE PASS
 
     def get_circumference(self):
-        pass  # YOUR CODE GOES HERE, REMOVE PASS
+        pass  # check function inside class
+    
 
 
 #####################
@@ -65,7 +66,9 @@ class Student:
         
 
     def set_age(self, age):
-        pass  # YOUR CODE GOES HERE, REMOVE PASS
+        self.age=36
+
+        print(self.age)
 
     def set_marks(self, marks):
         pass  # YOUR CODE GOES HERE, REMOVE PASS
