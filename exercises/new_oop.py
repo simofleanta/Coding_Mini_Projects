@@ -62,23 +62,24 @@ class Student:
     def display(self):
         print(f"{self.name} and {self.roll}")
 
+          
+    # getter method 
+    def get_age(self): 
+        return self._age 
+      
+    # setter method 
+    def set_age(self, x): 
+        self._age = x 
+    
+    # getter method 
+    def get_marks(self): 
+        return self._marks
+    
+    def set_marks(self, x): 
+        self._marks = x 
+
         
-    def set_age(self,age):
-        self._age=age
-
-    def set_marks(self,marks):
-        self._marks=marks
-
-p=Student('Adrian',2)
-p.set_age(36)
-p.set_marks([10,1,5])
-
-#get age
-print(p.get_age())   
-print(p._age) 
-#get marks
-print(p.get_marks())
-print(p._marks)
+    
     
 
 

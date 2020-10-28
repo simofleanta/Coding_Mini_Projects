@@ -18,16 +18,23 @@ class Student:
     def get_marks(self): 
         return self._marks
     
+    def set_marks(self, x): 
+        self._marks = x 
+    
   
 p = Student('Adrian',2) 
   
 # setting the age using setter 
-p.set_age(21) 
+p.set_age(36) 
+p.set_marks([1,2,3])
   
 # retrieving age using getter 
 print(p.get_age()) 
-  
 print(p._age)
+print(p.get_marks())
+print(p._marks)
+
+
 
 
   
