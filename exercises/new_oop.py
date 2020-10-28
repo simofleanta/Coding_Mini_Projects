@@ -54,10 +54,12 @@ class Temperature:
 # 2. set_age - It should assign age to student(setter and get?)
 # 3. set_marks - It should assign marks to the student.
 
-class Student:
-    def __init__(self, name, roll):
-        self.name=name
-        self.roll=roll
+class Student: 
+    def __init__(self, name,roll,age = 0, marks=0): 
+         self._age = age 
+         self.name=name
+         self.roll=roll
+         self._marks=marks
     
     def display(self):
         print(f"{self.name} and {self.roll}")
