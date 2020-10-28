@@ -1,8 +1,4 @@
 
-#####################
-# Exercise 3
-#####################
-
 # Create a Student class and initialize it with name and roll number.
 # Make methods to :
 # 1. display - It should display all information of the student.
