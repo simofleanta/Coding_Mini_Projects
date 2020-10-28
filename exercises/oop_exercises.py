@@ -25,8 +25,7 @@ class Circle:
         pass  # YOUR CODE GOES HERE, REMOVE PASS
 
     def get_circumference(self):
-        pass  # check function inside class
-    
+        pass  # check function in class
 
 
 #####################
