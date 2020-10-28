@@ -8,12 +8,21 @@ class Student:
           
     def display(self):
         print(f"{self.name} and {self.roll}")
-        
-    def set_age(self, age):
-        self.set_age(age)
-    
-    def set_marks(self, marks):
-        self.set_marks(marks)
+
+    def set_age(self,age):
+        self._age=age
+    def set_marks(self,marks):
+        self._marks=marks
+
+p=Student('Adrian',2)
+p.set_age(36)
+p.set_marks([10,1,5])
+
+
+
+
+ 
+
 
     
 
