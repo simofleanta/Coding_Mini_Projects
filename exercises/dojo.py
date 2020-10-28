@@ -9,6 +9,5 @@ class Student:
     def display(self):
         print(self.name,self.roll)
 p=Student('Adrian', 2)
-
-
+p.display()
 
