@@ -56,11 +56,11 @@ class Temperature:
 
 class Student:
     def __init__(self, name, roll):
-        self.name='Adrian'
-        self.roll='II'
+        self.name=name
+        self.roll=roll
 
     def display(self):
-        print(f"Hi my name is {name} and I am {roll}")
+        
         
 
     def set_age(self, age):

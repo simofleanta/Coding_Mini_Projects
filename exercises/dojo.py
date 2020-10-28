@@ -8,6 +8,7 @@ class Student:
 
     def display(self):
         print(self.name,self.roll)
+        print(f"i am {self.name} and {self.roll}")#using formater
 p=Student('Adrian', 2)
 p.display()
 
