@@ -58,6 +58,9 @@ class Student:
     def __init__(self, name, roll):
         self.name=name
         self.roll=roll
+    
+    def display(self):
+        print(f"{self.name} and {self.roll}")
 
         
     def set_age(self,age):
@@ -66,8 +69,7 @@ class Student:
     def set_marks(self,marks):
         self._marks=marks
 
-    def display(self):
-        print(f"{self.name} and {self.roll}, and {self.age} and {self.marks}")
+    )
 
 
 
