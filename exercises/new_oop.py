@@ -65,10 +65,14 @@ class Student:
         
 
     def set_age(self, age):
-      pass
+      return "{} age {}".format(self.name, self.roll)
+
 
     def set_marks(self, marks):
-        pass  # YOUR CODE GOES HERE, REMOVE PASS
+        return "{} marks {}".format(self.name, self.roll,self.marks)
+        
+
+
 
 
 #####################

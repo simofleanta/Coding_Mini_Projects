@@ -9,6 +9,13 @@ class Student:
     def display(self):
         print(self.name,self.roll)
         print(f"i am {self.name} and {self.roll}")#using formater
-p=Student('Adrian', 2)
-p.display()
+        
+        
 
+    def set_age(self, age):
+      return "{} age {}".format(self.name, self.roll)
+    
+    def set_marks(self, marks):
+        return "{} marks {}".format(self.name, self.roll,self.marks)
+
+    
