@@ -69,6 +69,9 @@ class Student:
     def set_marks(self,marks):
         self._marks=marks
 
+p=Student('Adrian',2)
+p.set_age(36)
+p.set_marks([10,1,5])
     
 
 
