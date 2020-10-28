@@ -72,6 +72,13 @@ class Student:
 p=Student('Adrian',2)
 p.set_age(36)
 p.set_marks([10,1,5])
+
+#get age
+print(p.get_age())   
+print(p._age) 
+#get marks
+print(p.get_marks())
+print(p._marks)
     
 
 
