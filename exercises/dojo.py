@@ -1,24 +1,46 @@
-
-#display all attributes
-class Student:
-    def __init__(self, name, roll):
-        self.name=name
-        self.roll=roll
+class Student: 
+    def __init__(self, name,roll,age = 0, marks=0): 
+         self._age = age 
+         self.name=name
+         self.roll=roll
+         self._marks=marks
+         
+      
+    # getter method 
+    def get_age(self): 
+        return self._age 
+      
+    # setter method 
+    def set_age(self, x): 
+        self._age = x 
     
-          
-    def display(self):
-        print(f"{self.name} and {self.roll}")
-        
+    # getter method 
+    def get_marks(self): 
+        return self._marks
+    
+  
+p = Student('Adrian',2) 
+  
+# setting the age using setter 
+p.set_age(21) 
+  
+# retrieving age using getter 
+print(p.get_age()) 
+  
+print(p._age)
 
-    def set_age(self,age):
-        self._age=age
 
-    def set_marks(self,marks):
-        self._marks=marks
+  
 
-p=Student('Adrian',2)
-p.set_age(36)
-p.set_marks([10,1,5])
+
+
+
+
+
+
+#p=Student('Adrian',2)
+#p.set_age(36)
+#p.set_marks([10,1,5])
 
 
 
@@ -39,16 +61,4 @@ p.set_marks([10,1,5])
       
       
       
-      
-"""return "{} age {}".format(self.name, self.roll)
-
-
-    def set_marks(self, marks):
-        return "{} marks {}".format(self.name, self.roll,self.marks)
-
-    def display(self):
-        print(f"{self.name} and {self.roll}, and {self.age} and {self.marks}")
-
-p=Student('Adrian',2,36,10)
-p.display()"""
 

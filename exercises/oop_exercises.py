@@ -65,11 +65,11 @@ class Student:
         
 
     def set_age(self, age):
-        self.age=36
+        
 
-        print(self.age)
+       
 
-    def set_marks(self, marks):
+     def set_marks(self, marks):
         pass  # YOUR CODE GOES HERE, REMOVE PASS
 
 
