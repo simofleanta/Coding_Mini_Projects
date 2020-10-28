@@ -60,6 +60,7 @@ class Student:
         self.roll='II'
 
     def display(self):
+        print(f"Hi my name is {name} and I am {roll}")
         
 
     def set_age(self, age):
