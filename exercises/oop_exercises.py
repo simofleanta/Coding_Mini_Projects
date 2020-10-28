@@ -60,6 +60,7 @@ class Student:
         self.roll=roll
 
     def display(self):
+        print(f"{self.name} and {self.roll}")
         
         
 
