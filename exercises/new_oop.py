@@ -51,8 +51,10 @@ class Temperature:
 # Create a Student class and initialize it with name and roll number.
 # Make methods to :
 # 1. display - It should display all information of the student.
-# 2. set_age - It should assign age to student(setter and get?)
+# 2. set_age - It should assign age to student)
 # 3. set_marks - It should assign marks to the student.
+
+#setters and getters :)
 
 class Student: 
     def __init__(self, name,roll,age = 0, marks=0): 
