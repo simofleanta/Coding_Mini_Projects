@@ -10,22 +10,7 @@
 # really tough, its all about breaking the problem down into smaller, logical steps.
 
 
-#####################
-# Exercise 1
-#####################
 
-# Create a circle class and initialize it with radius.
-# Make two methods get_area and get_circumference inside this class.
-
-class Circle:
-    def __init__(self, radius):
-        self.radius=radius
-
-    def get_area(self):
-        pass  # YOUR CODE GOES HERE, REMOVE PASS
-
-    def get_circumference(self):
-        pass  # check function in class
 
 
 #####################
