@@ -19,6 +19,14 @@ class Circle:
         self._circumference=a
 p=Circle(20)
 
+#set stuff
+p.set_area(0.5)
+p.set_circumference(360)
+
+#get stuff
+print(p.get_area())
+print(p.get_circumference())
+
 
  
 
