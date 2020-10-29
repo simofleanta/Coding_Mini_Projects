@@ -1,6 +1,4 @@
-#####################
-# Exercise 2
-#####################
+
 
 # Create a temperature class. Make two methods :
 # 1. convert_fahrenheit - It will take celsius and will print it into Fahrenheit.
