@@ -37,24 +37,4 @@ print("conversions :", t.convert_celsius,t.convert_fahrenheit)
 
 
 
-"""class Temperature:
-    t=0
-    def __init__(self, temperature):
-        self.temperature=temperature     
-    
-
-
-    def convert_fahrenheit(self):
-        t=float((self.temperature * 9)/5 + 32)
-        return t
-
-         
-
-    def convert_celsius(self):
-        t=float((self.temperature - 32) * 5/9)
-        return t
-
- 
-
-p=Temperature(50)
-print("conversions :", p.convert_celsius,p.convert_fahrenheit)"""
+   
