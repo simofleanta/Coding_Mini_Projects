@@ -1,14 +1,12 @@
 
 # Define property that should have the same value for every class instance
-
 # Expected Output:
 # Color: White, Vehicle name: School Volvo, Speed: 180, Mileage: 12
 # Color: White, Vehicle name: Audi Q5, Speed: 240, Mileage: 18
-
 # Bonus:
 # Create a new Motorbike class that will have color blue
 
-# Use the following code for this exercise.
+
 class Vehicle:
 
     color="White"
@@ -46,3 +44,13 @@ class Car(Vehicle):
         self.capacity=5
 c=Car('Dacia', 180, 17)
 print("Car :", c.name, c.color,c.max_speed,c.mileage)
+
+class Motorbike(Vehicle):
+    def __init__(self, name,max_speed, mileage):
+        super().__init__(name,max_speed,mileage)
+        self.color="Blue"
+        self.capacity=600
+
+m=Motorbike('Honda', 260, 80)
+print("Motorbike :", m.name, m.color,m.max_speed,m.capacity,m.mileage)
+
