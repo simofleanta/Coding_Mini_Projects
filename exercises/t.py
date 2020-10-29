@@ -22,13 +22,6 @@ class Temperature:
 t=Temperature('celsius','fahrenheit')
 print("conversions :", t.convert_celsius,t.convert_fahrenheit)
 
-t=input("into celsius: ")
-print(t)
-t1=input("into F: ")
-print(t1)
-
-
-
 
 
 
