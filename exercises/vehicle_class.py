@@ -11,14 +11,26 @@
 # Use the following code for this exercise.
 class Vehicle:
 
-    def __init__(self, name, max_speed, mileage):
+    color="White"
+   
+    def __init__(self, name,max_speed, mileage):
         self.name = name
         self.max_speed = max_speed
         self.mileage = mileage
 
+    def print_v(self):
+        print(self.color,self.name,self.max_speed,self.mileage)
+
+v=Vehicle('School Volvo', 180, 12) 
+v.print_v()     
+
 
 class Bus(Vehicle):
-    pass  # YOUR CODE GOES HERE, REMOVE PASS
+    def __init__(self, name,max_speed, mileage):
+        super().__init__(name,max_speed,mileage)
+        self.name='Audi'
+        self.speed=240
+        self.mileage=18
 
 
 class Car(Vehicle):
