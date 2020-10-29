@@ -30,7 +30,7 @@ class t:
         self.f=f
 
     
-    def m(self,c,f):
+    def convert_temp(self,c,f):
         return ((c - 32) * 5/9),((f - 32) * 5/9)
 
 C=t('fahrenheit','celsius')
