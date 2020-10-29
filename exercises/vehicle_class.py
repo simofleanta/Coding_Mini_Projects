@@ -21,7 +21,7 @@ class Vehicle:
 
 v=Vehicle('School Volvo', 180, 12) 
 
-print("Vehicle name:", v.name, v.color, v.max_speed,v.mileage)    
+#print("Vehicle name:", v.name, v.color, v.max_speed,v.mileage)    
 
 
 class Bus(Vehicle):
