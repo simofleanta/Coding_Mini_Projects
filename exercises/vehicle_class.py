@@ -30,13 +30,14 @@ class Bus(Vehicle):
         self.name='Audi Q5'
         self.speed=240
         self.mileage=18
+        self.seat_capacity=50
         
     def print_bus(self):
         print(self.name, self.color,self.speed,self.mileage)
 
 B=Bus('Audi Q5', 240,18)
 
-print("Bus name: ", B.name, B.color, B.speed, B.mileage)
+print("Bus name: ", B.name, B.color, B.speed, B.mileage, B.seat_capacity)
 
 class Car(Vehicle):
     def __init__(self, name,max_speed, mileage):
