@@ -53,33 +53,6 @@ class Time:
 
 
 
-
-
-
-
-#####################
-# Exercise 6
-#####################
-
-# Create a Bus class that inherits from the Vehicle class. Give the capacity argument of Bus.seating_capacity() a
-# default value of 50.
-
-# Expected Output:
-# The seating capacity of a bus is 50 passengers
-
-# Use the following code for your parent Vehicle class.
-# You need to use method overriding.
-
-class Vehicle:
-    def __init__(self, name, max_speed, mileage):
-        self.name = name
-        self.max_speed = max_speed
-        self.mileage = mileage
-
-    def seating_capacity(self):
-        pass  # YOUR CODE GOES HERE, REMOVE PASS
-
-
 #####################
 # Exercise 7
 #####################
