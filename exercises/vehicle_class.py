@@ -41,4 +41,8 @@ B=Bus('Audi Q5', 240,18)
 print("Bus name: ", B.name, B.color, B.speed, B.mileage)
 
 class Car(Vehicle):
-    pass  # YOUR CODE GOES HERE, REMOVE PASS
+    def __init__(self, name,max_speed, mileage):
+        super().__init__(name,max_speed,mileage)
+        self.capacity=5
+c=Car('Dacia', 180, 17)
+print("Car :", c.name, c.color,c.max_speed,c.mileage)
