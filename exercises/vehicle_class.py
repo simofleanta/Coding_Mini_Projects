@@ -19,8 +19,8 @@ class Vehicle:
     def print_v(self):
         print(self.color,self.name,self.max_speed,self.mileage)
 
-v=Vehicle('School Volvo', 180, 12) 
 
+v=Vehicle('School Volvo', 180, 12) 
 #print("Vehicle name:", v.name, v.color, v.max_speed,v.mileage)    
 
 
@@ -30,17 +30,16 @@ class Bus(Vehicle):
         self.name='Audi Q5'
         self.speed=240
         self.mileage=18
-        
+       
         
     def print_bus(self):
         print(self.name, self.color,self.speed,self.mileage)
 
     def seating_capacity(self, seat_capacity=50):
-        print(seat_capacity)
+        return seat_capacity
 
 B=Bus('Audi Q5', 240,18)
-B.seating_capacity()
-print("Bus name: ", B.name, B.color, B.speed, B.mileage)
+print("Bus name: ", B.name, B.color, B.speed, B.mileage, B.seating_capacity())
 
 
 class Car(Vehicle):
