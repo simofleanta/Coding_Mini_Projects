@@ -36,6 +36,7 @@ class Bus(Vehicle):
 School_bus = Bus("School Volvo", 12, 50)
 print("Total Bus fare is:", School_bus.fare())
 print("Toal_Bus fare: ", School_bus.total_fare())
+# execise 8
 print(isinstance(School_bus, Vehicle))
 
 
