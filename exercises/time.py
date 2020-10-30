@@ -14,7 +14,7 @@ class Time:
         
 
     def add_time(self, t1, t2):
-         pass
+         return (t1*2+t2+0.5)+(t1+t2+0.2)
 
 
     def display_time(self):
