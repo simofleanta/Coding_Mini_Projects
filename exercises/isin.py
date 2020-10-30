@@ -38,19 +38,3 @@ print("Total Bus fare is:", School_bus.fare())
 print("Toal_Bus fare: ", School_bus.total_fare())
 
 
-## Determine if School_bus is also an instance of the Vehicle class
-
-# Expected Output:
-# True
-
-class Vehicle:
-    def __init__(self, name, mileage, capacity):
-        self.name = name
-        self.mileage = mileage
-        self.capacity = capacity
-
-
-class Bus(Vehicle):
-    pass
-
-School_bus=("School Volvo", 22,50)
