@@ -18,9 +18,9 @@ class Temperature:
 
  
 t=Temperature('fahrenheit','celsius')
-print(t.fahrenheit)
-print(t.celsius)
-print("conversions :", t.convert_celsius(2),t.convert_fahrenheit(4))
+#print(t.fahrenheit)
+#print(t.celsius)
+#print("conversions :", t.convert_celsius(2),t.convert_fahrenheit(4))
 
 #version2 
 
@@ -34,7 +34,7 @@ class t:
         return ((c - 32) * 5/9),((f - 32) * 5/9)
 
 C=t('fahrenheit','celsius')
-print("conversions :", C.m(2,3))
+print("conversions :", C.convert_temp(2,3))
 
 
 
