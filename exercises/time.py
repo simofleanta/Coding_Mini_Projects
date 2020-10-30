@@ -8,10 +8,14 @@
 class Time:
 
     def __init__(self, hours, minutes):
-        pass  # YOUR CODE GOES HERE, REMOVE PASS
+        self.hours=hours
+        self.minutes=minutes
+
+        
 
     def add_time(self, t1, t2):
-        pass  # YOUR CODE GOES HERE, REMOVE PASS
+         pass
+
 
     def display_time(self):
         pass  # YOUR CODE GOES HERE, REMOVE PASS
