@@ -58,3 +58,5 @@ class Motorbike(Vehicle):
 m=Motorbike('Honda', 260, 80)
 print("Motorbike :", m.name, m.color,m.max_speed,m.capacity,m.mileage)
 
+
+
