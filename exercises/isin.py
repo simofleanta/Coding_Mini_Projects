@@ -25,24 +25,23 @@ class Vehicle:
 
 
 class Bus(Vehicle):
-    def __init__(self, name,max_speed, mileage):
-        super().__init__(name,max_speed,mileage)
+    def __init__(self, name,max_speed, capacity):
+        self.capacity=50
     
-    def full_amount(self):
-        return self.capacity * 100+10/100
+    def total_fare(self):
+        return self.capacity * 100+550
+        
 
 
 School_bus = Bus("School Volvo", 12, 50)
 print("Total Bus fare is:", School_bus.fare())
-print("Full amount: ", School_bus.full_amount())
+print("Toal_Bus fare: ", School_bus.total_fare())
 
 
-
-# Determine if School_bus is also an instance of the Vehicle class
+## Determine if School_bus is also an instance of the Vehicle class
 
 # Expected Output:
 # True
-
 
 class Vehicle:
     def __init__(self, name, mileage, capacity):
