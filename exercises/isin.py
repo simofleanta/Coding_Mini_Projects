@@ -16,3 +16,4 @@ class Bus(Vehicle):
 
 School_bus=("School Volvo", 22,50)
 print(isinstance(School_bus, Vehicle))
+print(type(School_bus))
