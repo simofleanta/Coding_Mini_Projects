@@ -15,7 +15,7 @@ def decide():
 
  
 def answer():
-    print('into: [C/F]')
+    print('into: [celsius/fahrenheit]')
     reply=input()
     if reply=='celsius':
         print(convert_celsius(5))
