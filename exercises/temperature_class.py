@@ -20,9 +20,9 @@ class Temperature:
 t=Temperature('fahrenheit','celsius')
 
 
-#print(t.fahrenheit)
-#print(t.celsius)
-#print("conversions :", t.convert_celsius(2),t.convert_fahrenheit(4))
+print(t.fahrenheit)
+print(t.celsius)
+print("conversions :", t.convert_celsius(2),t.convert_fahrenheit(4))
 
 #version2 
 
