@@ -1,7 +1,10 @@
 
 
+def convert_fahrenheit(celsius):
+        return((celsius * 9/5) + 32)         
 
-
+def convert_celsius(fahrenheit):
+        return((fahrenheit - 32) * 5/9)
 
 
 def decide():
@@ -17,7 +20,7 @@ def answer():
     if reply=='celsius':
         print(convert_celsius(5))
     elif reply=='fahrenheit':
-        print(convert_fahrenheit(=2))
+        print(convert_fahrenheit(2))
     else:
         exit()
 
