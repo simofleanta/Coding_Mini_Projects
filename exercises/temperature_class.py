@@ -16,6 +16,7 @@ class Temperature:
     def convert_celsius(self, fahrenheit):
         return((fahrenheit - 32) * 5/9)
 
+t=Temperature('fahrenheit','celsius')
 
 def decide():
     print("convert?")
@@ -27,10 +28,10 @@ def decide():
 def answer():
     print('into: [C/F]')
     reply=input()
-    if reply=='C':
-        print(Temperature.convert_fahrenheit(3))
-    elif reply=='F':
-        print(Temperature.convert_celsius(2))
+    if reply=='celsius':
+        print(Temperature.convert_celsius(fahrenheit=5))
+    elif reply=='fahrenheit':
+        print(Temperature.convert_fahrenheit(celsius=2))
     else:
         return None
 
@@ -38,7 +39,7 @@ decide()
 
 
 
-t=Temperature('fahrenheit','celsius')
+
 
 
 
