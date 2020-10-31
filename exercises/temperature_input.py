@@ -17,7 +17,7 @@ def answer():
     print('into: [celsius/fahrenheit]')
     reply=input()
     if reply=='celsius':
-        print(convert_celsius(10))
+        print(convert_celsius(5))
     elif reply=='fahrenheit':
         print(convert_fahrenheit(20))
     else:
