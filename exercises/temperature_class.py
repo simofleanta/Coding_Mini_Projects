@@ -15,9 +15,9 @@ class Temperature:
 
     def convert_celsius(self, fahrenheit):
         return((fahrenheit - 32) * 5/9)
+t=Temperature('fahrenheit','celsius')
 
-
-def decide():
+def decide(self):
     print("convert?")
     input()
     print("sure")
@@ -35,7 +35,7 @@ def answer():
         return None
 
 decide()
-t=Temperature('fahrenheit','celsius')
+
 #print(t.fahrenheit)
 #print(t.celsius)
 #print("conversions :", t.convert_celsius(2),t.convert_fahrenheit(4))
