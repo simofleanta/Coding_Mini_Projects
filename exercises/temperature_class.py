@@ -18,6 +18,19 @@ class Temperature:
 
  
 t=Temperature('fahrenheit','celsius')
+def answer():
+    print('into: [C/F]')
+    reply=input()
+    if reply=='C':
+        Temperature.convert_fahrenheit(3)
+    elif reply=='F':
+        Temperature.convert_celsius(2)
+    else:
+        exit()
+
+
+
+
 #print(t.fahrenheit)
 #print(t.celsius)
 #print("conversions :", t.convert_celsius(2),t.convert_fahrenheit(4))
@@ -33,8 +46,12 @@ class t:
     def convert_temp(self,c,f):
         return ((c - 32) * 5/9),((f - 32) * 5/9)
 
-C=t('fahrenheit','celsius')
-print("conversions :", C.convert_temp(2,3))
+#C=t('fahrenheit','celsius')
+#print("conversions :", C.convert_temp(2,3))
+
+
+
+
 
 
 
