@@ -4,6 +4,7 @@
 # 2. Make a method display_time which should print the time.
 # 3. Make a method display_minute which should display the total minutes in the Time.
 # Example: (1 hr 2 min) should display 62 minute.
+import datetime
 
 class Time:
 
@@ -22,3 +23,5 @@ class Time:
 
     def display_minute(self):
         pass  # YOUR CODE GOES HERE, REMOVE PASS
+
+minutes = lambda s,e : (s + datetime.timedelta(minutes = x) for x in minutes((e-s).seconds / 60 + 1))
