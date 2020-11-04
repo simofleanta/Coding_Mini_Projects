@@ -14,7 +14,7 @@ import stats
 
 c=pd.read_csv('ibm_course.csv')
 #print(c.columns)
-df=DataFrame(c.head(100))
+df=DataFrame(c.head(13))
 #print(df.head(100))
 
 #check data types
@@ -24,10 +24,17 @@ x=df.dtypes
 
 #change data types to category
 age=df.Age=pd.Categorical(df['Age'], ordered=True)
+userid=df.User_id=pd.Categorical(df['User_id'], ordered=True)
+Transaction_value=df['Transaction_value']
+print(Transaction_value)
+
 
 #group transaction by age 
-x=df.groupby('Age').mean()
-print(x)
+d=df.groupby(['IP_Address']).mean()
+print(d)
+
+
+
 
 
 
