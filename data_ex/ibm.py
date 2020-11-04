@@ -10,8 +10,6 @@ import plotly
 import statistics
 import stats
 
-#What is the correct mean and standard deviation of the quantity of pasta purchased by time unit by household?
-
 c=pd.read_csv('ibm_course.csv')
 #print(c.columns)
 df=DataFrame(c.head(13))
