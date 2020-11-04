@@ -29,7 +29,7 @@ ip=df.IP_Address=pd.Categorical(df['IP_Address'])
 
 
 #group transaction by age 
-d=df.groupby(['IP_Address']).sum()
+d=df.groupby(['IP_Address']).mean()
 print(d)
 
 f=['mean', 'std']
