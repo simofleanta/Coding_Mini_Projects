@@ -17,6 +17,14 @@ c=pd.read_csv('ibm_course.csv')
 df=DataFrame(c.head(100))
 print(df.head(100))
 
+#check data types
+
+x=df.dtypes
+print(x)
+
+#change data types to category
+
+
 
 
 
