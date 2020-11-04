@@ -33,7 +33,12 @@ print(Transaction_value)
 d=df.groupby(['IP_Address']).mean()
 print(d)
 
+#copy dataset with desired columns
+s=df[['Transaction_value','Age','Unit_Purchased','data']].copy()
 
+#make corr
+plt.figure(figsize=(10,5))
+sns.heatmap(df.corr(),cmap='Blues')
 
 
 
