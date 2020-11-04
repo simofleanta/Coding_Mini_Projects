@@ -1,0 +1,14 @@
+IP_Address,User_id,Account_No,Age,Shipping_dress,data,Transaction_value,Product_company,Unit_Purchased
+351230,johnp,25671147,32,Orchid_lane US,June,121.58,Cloting ,1
+351230,johnp,25671147,32,Orchid_lane US,June,79.33,Cloting ,2
+351230,johnp,25671147,32,Orchid_lane US,June,79.33,Cloting ,1
+1186527,johnp,25671147,32,In_store,June,"2,009.99",dekor,10
+1186527,johnp,25671147,32,In_store,June,"4,131",dekor,15
+1581672,davidg,51422789,47,Robinson_Blvd Canada,May,"3,010.50",dekor,20
+1581672,davidg,51422789,47,Robinson_Blvd Canada,May,234.2,Electronics,1
+1581672,davidg,51422789,47,Robinson_Blvd Canada,May,141,Electronics,3
+1581672,davidg,51422789,47,Robinson_Blvd Canada,May,157.25,Electronics,2
+172165101,ellend,11568528,60,PO_Box,June,59.99,Electronics,1
+172165101,ellend,11568528,60,PO_Box,June,99.99,Electronics,1
+116725510,ellend,11568528,60,PO_Box,July,53.15,Electronics,1
+351230,johnp,25671147,32,Orchid_lane US,July,"489,500",Electronics,2
