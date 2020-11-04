@@ -25,13 +25,16 @@ x=df.dtypes
 #change data types to category
 age=df.Age=pd.Categorical(df['Age'], ordered=True)
 userid=df.User_id=pd.Categorical(df['User_id'], ordered=True)
-Transaction_value=df['Transaction_value']
-print(Transaction_value)
+ip=df.IP_Address=pd.Categorical(df['IP_Address'])
+
 
 
 #group transaction by age 
 d=df.groupby(['IP_Address']).mean()
-print(d)
+
+f=['mean', 'std']
+x=df.groupby(['data'], as_index=False)[['Transaction_value']].agg(f)
+print(x.reset_index())
 
 #copy dataset with desired columns
 s=df[['Transaction_value','Age','Unit_Purchased','data']].copy()
