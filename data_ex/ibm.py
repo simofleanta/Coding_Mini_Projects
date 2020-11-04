@@ -23,6 +23,9 @@ x=df.dtypes
 print(x)
 
 #change data types to category
+age=df.Age=pd.Categorical(df['Age'], ordered=True)
+
+
 
 
 
