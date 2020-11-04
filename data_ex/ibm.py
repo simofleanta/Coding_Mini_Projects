@@ -15,15 +15,19 @@ import stats
 c=pd.read_csv('ibm_course.csv')
 #print(c.columns)
 df=DataFrame(c.head(100))
-print(df.head(100))
+#print(df.head(100))
 
 #check data types
 
 x=df.dtypes
-print(x)
+#print(x)
 
 #change data types to category
 age=df.Age=pd.Categorical(df['Age'], ordered=True)
+
+#group transaction by age 
+x=df.groupby('Age').mean()
+print(x)
 
 
 
