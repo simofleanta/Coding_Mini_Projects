@@ -30,9 +30,6 @@ ip=df.IP_Address=pd.Categorical(df['IP_Address'])
 d=df.groupby(['IP_Address']).mean()
 print(d)
 
-f=['mean', 'std']
-x=df.groupby(['data'], as_index=False)[['Transaction_value']].agg(f)
-
 
 #copy dataset with desired columns
 s=df[['Transaction_value','Age','Unit_Purchased','data']].copy()
