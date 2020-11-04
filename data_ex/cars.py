@@ -13,9 +13,9 @@ import stats
 
 
 c=pd.read_csv('cars_csv.csv')
-#print(c.columns)
+print(c.columns)
 df=DataFrame(c.head(20))
-#print(df.head(10))
+print(df.head(10))
 
 df.describe()
 df.sum()
@@ -30,36 +30,36 @@ print(s)
 
 wt=df.wt
 f=wt.min()
-#print(f)
+print(f)
 
 """summary stats"""
 #df stdev
 s=df.std()
-#print(s)
+print(s)
 
 mean=df.mean()
-#print(mean)
+print(mean)
 
 """ Agreggate column"""
 d=df.agg(['mean','max','min','var','count'])
-#print(d)
+print(d)
 
 """groupby 2 columns """
 
 g=df.groupby('cyl').mean()
-#print(g)
+print(g)
 x=df.groupby(['cars_names'])[['cyl']]
-#print(x.mean())
+print(x.mean())
 
 # group by with 2 columns and tail(4)
 x=df.groupby(['cars_names'], as_index=False)[['carb']].mean().tail(4)
-#print(x)
+print(x)
 
 """aggegate 2 columns"""
 
 f=['mean','max','min','count', 'std','var']
 x=df.groupby(['cars_names'], as_index=False)[['carb']].agg(f)
-#print(x.reset_index())
+print(x.reset_index())
 
 x=df[['mpg','hp','wt']]
 sns.pairplot(x)
