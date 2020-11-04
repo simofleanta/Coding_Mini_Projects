@@ -17,9 +17,9 @@ c=pd.read_csv('cars_csv.csv')
 df=DataFrame(c.head(20))
 #print(df.head(10))
 
-#df.describe()
-#df.sum()
-#df.mean()
+df.describe()
+df.sum()
+df.mean()
 df.max()
 
 
