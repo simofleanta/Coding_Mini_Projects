@@ -1,3 +1,5 @@
+#while loop with else condition
+
 i = 0
 while i <5:
     print(i, end=" ")
@@ -6,5 +8,6 @@ while i <5:
         break
     else:
         print(0)
-        
+
+
     
