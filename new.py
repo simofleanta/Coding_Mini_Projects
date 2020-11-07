@@ -6,6 +6,6 @@ def pattern(n):
         pyramid=pyramid-1
         for j in range( 0, i+1):
             print("*", end="")
-        print("8*92")
+        print("*")
             
-print(pattern(5))
+print(pattern(9))
