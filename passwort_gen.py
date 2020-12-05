@@ -5,7 +5,7 @@ import random
 low="abcd"
 Caps="ABCD"
 No="012345"
-Sy=".;*/,[],{}]"
+Sy=".;*/,[],]"
 
 all_c=low+Caps+No+Sy
 length=16
