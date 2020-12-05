@@ -10,7 +10,7 @@ Sy=".;*/,[],]"
 all_c=low+Caps+No+Sy
 #set length
 length=16
-
+#function
 #password generator function
 def pass_gen(all_c,length):
     """Creating a password with function that randomly joins chars"""
