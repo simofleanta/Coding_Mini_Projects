@@ -5,9 +5,10 @@ You'll find coding eercises, snippet
 you'll find functions, classes 
 I tried to transpose little things in small codes
 
+#Examples:
 *calculator
 *password generator
 *guessing number
 *classes
-* draqing of tic taac toe. 
+*drawing of tic taac toe. 
 
