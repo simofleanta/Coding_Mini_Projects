@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-# Projects
-funtions and classes
-=======
-# Coding Mini Projects
-
 This is a repository that means a lot to me
 You'll find coding eercises, snippet 
 you'll find functions, classes 
