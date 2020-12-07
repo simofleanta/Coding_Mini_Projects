@@ -10,5 +10,5 @@ I tried to transpose little things in small codes
 *password generator
 *guessing number
 *classes
-*drawing of tic taac toe. 
+*drawing of Tic Tac Toe. 
 
