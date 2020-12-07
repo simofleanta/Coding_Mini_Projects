@@ -1,5 +1,7 @@
 # Coding Mini Projects
 
-Read code through projects
-changes
-readme
+This is a repository that means a lot to me
+You'll find coding eercises, snippet 
+you'll find functions, classes 
+I tried to transpose little things in small codes
+
