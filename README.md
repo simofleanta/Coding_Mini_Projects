@@ -1,5 +1,3 @@
 # Projects
-Projects
-Read code through projects
-changes
-readme
+funtions and classes
+
