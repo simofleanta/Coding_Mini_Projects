@@ -9,5 +9,5 @@ I tried to transpose little things in small codes
 *guessing number
 *classes
 *drawing of Tic Tac Toe. 
->>>>>>> 21949479eda19ad6a6d15d824ae2f88d84c418e2
+
 
