@@ -1,10 +1,9 @@
 
-# Create a temperature class. Make two methods :
-# 1. convert_fahrenheit - It will take celsius and will print it into Fahrenheit.
-# 2. convert_celsius - It will take Fahrenheit and will convert it into Celsius.
-#currency convert 
+# creating a program that converts currency unsing manual conversion formula 
+# I used class methods to do it. 
+#I took the rated from google. 
 
-#version 1
+
 class currency:
  
     def __init__(self, euro, dollar):
@@ -23,7 +22,7 @@ convert=currency('euro','dollar')
 
 print(convert.euro)
 print(convert.dollar)
-print("conversions :", convert.to_euro(2),convert.to_dollar(4))
+print("conversions :", convert.to_euro(500),convert.to_dollar(200))
 
 
 
