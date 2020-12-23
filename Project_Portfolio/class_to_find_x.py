@@ -2,7 +2,7 @@
 n % 3 = 2, and n % 5 = 3, and n % 7 = 2.
 What's the minimum possible positive integer n? """
 
-#making class of the math function
+#making class to find x
 
 
 class find_x:
