@@ -9,3 +9,4 @@ def pattern(n):
         print("*")
             
 print(pattern(9))
+
