@@ -14,7 +14,7 @@ def guess_it(x):
         else:
             print('Yup you got it {random_x}')
 
-print(guess_it(10))
+print(guess_it(20))
        
 
         
