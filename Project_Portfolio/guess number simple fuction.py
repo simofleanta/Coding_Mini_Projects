@@ -11,8 +11,8 @@ def guess_it(x):
             print('too low high, try again')
         elif guess > random_x:
             print('too high , try again')
-    
-    print('Yup you got it {random_x}')
+        else:
+            print('Yup you got it {random_x}')
 
 print(guess_it(10))
        
