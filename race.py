@@ -8,4 +8,10 @@ window.title("Turtle race")
 turtle.bgcolor("forestgreen")
 turtle.color("White")
 turtle.speed(0)
+turtle.penup()
+turtle.setpose(-140-200)
+turtle.write("Race to 2021", font=("Verdana",30, "bold"))
+turtle.penup()
+
+
 
