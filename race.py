@@ -74,13 +74,22 @@ turtle2.goto(-250, 50)
 turtle2.pendown()
 
 # turt 3
-turtle2=Turtle()
-turtle2.speed(0)
-turtle2.color("white")
-turtle2.shape("turtle")
-turtle2.penup()
-turtle2.goto(-250, 50)
-turtle2.pendown()
+turtle3=Turtle()
+turtle3.speed(0)
+turtle3.color("wheat")
+turtle3.shape("turtle")
+turtle3.penup()
+turtle3.goto(-250, 0)
+turtle3.pendown()
+
+# turt 4
+turtle4=Turtle()
+turtle4.speed(0)
+turtle4.color("chocolate")
+turtle4.shape("turtle")
+turtle4.penup()
+turtle4.goto(-250, -53)
+turtle4.pendown()
 
 
 
