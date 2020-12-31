@@ -95,7 +95,18 @@ turtle4.pendown()
 time.sleep(1)
 
 #moving the turts
-for i 
+
+for i in range(145):
+    turtle1.forward(randint(1,5))
+    turtle2.forward(randint(1,5))
+    turtle3.forward(randint(1,5))
+    turtle4.forward(randint(1,5))
+
+turtle.exitonclick()
+
+
+
+
 
 
 
