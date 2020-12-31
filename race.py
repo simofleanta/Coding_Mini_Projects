@@ -34,6 +34,28 @@ stamp_size=20
 square_size=15
 reaching_line=200
 
+turtle.color("wheat")
+turtle.shape("square")
+turtle.shapesize(square_size/stamp_size)
+turtle.penup()
+
+#drawing the finishline
+
+for i in range(10):
+    turtle.setpos(reaching_line, (150-(i * square_size*2)))
+    turtle.stamp()
+
+for j in range(10):
+    turtle.setpos(reaching_line, ((150 - square_size) - (j * square_size *2)))
+    turtle.stamp()
+
+turtle.hideturtle()
+
+
+
+
+
+
 
 
 
