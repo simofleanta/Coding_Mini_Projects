@@ -6,7 +6,7 @@ t.color("red")
 t.width()
 t.speed(4)
 t.shape('turtle')
-t.shapesize(0.5)
+t.shapesize(0.7)
 
 for i in range(4):
     t.forward(300)
