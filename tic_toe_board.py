@@ -2,7 +2,7 @@ import turtle
 
 board=turtle.Screen()
 t=turtle.Turtle()
-t.color("green")
+t.color("red")
 t.width()
 t.speed(4)
 t.shape('turtle')
