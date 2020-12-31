@@ -51,7 +51,36 @@ for j in range(10):
 
 turtle.hideturtle()
 
+#----------------------------------
 
+#Drawing the turtles
+
+# turt 1
+turtle1=Turtle()
+turtle1.speed(0)
+turtle1.color("cyan")
+turtle1.shape("turtle")
+turtle1.penup()
+turtle1.goto(-250, 100)
+turtle1.pendown()
+
+# turt 2
+turtle2=Turtle()
+turtle2.speed(0)
+turtle2.color("white")
+turtle2.shape("turtle")
+turtle2.penup()
+turtle2.goto(-250, 50)
+turtle2.pendown()
+
+# turt 3
+turtle2=Turtle()
+turtle2.speed(0)
+turtle2.color("white")
+turtle2.shape("turtle")
+turtle2.penup()
+turtle2.goto(-250, 50)
+turtle2.pendown()
 
 
 
