@@ -91,6 +91,14 @@ turtle4.penup()
 turtle4.goto(-250, -53)
 turtle4.pendown()
 
+# to pause the turtles before start of race for 1 second 
+time.sleep(1)
+
+#moving the turts
+for i 
+
+
+
 
 
 
