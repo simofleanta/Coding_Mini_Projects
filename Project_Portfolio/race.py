@@ -10,10 +10,10 @@ turtle.color("White")
 turtle.speed(0)
 turtle.penup()
 turtle.setpos(-140, 200)
-turtle.write("Happy New Year", font=("Verdana",30))
+turtle.write("Happy New Year!", font=("Verdana",30))
 turtle.penup() 
 
-#2020 dirt
+#2020 line
 
 turtle.setpos(-400, -180)
 turtle.color("wheat")
@@ -39,7 +39,7 @@ turtle.shape("square")
 turtle.shapesize(square_size/stamp_size)
 turtle.penup()
 
-#drawing the finishline
+#drawing the reaching line
 
 for i in range(10):
     turtle.setpos(reaching_line, (150-(i * square_size*2)))
