@@ -51,8 +51,6 @@ for j in range(10):
 
 turtle.hideturtle()
 
-#----------------------------------
-
 #Drawing the turtles
 
 # turt 1
@@ -103,6 +101,7 @@ for i in range(145):
     turtle4.forward(randint(1,5))
 
 turtle.exitonclick()
+
 
 
 
