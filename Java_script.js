@@ -7,3 +7,6 @@ x[z]=456;
 
 console.log(x[y]);
 
+
+
+
